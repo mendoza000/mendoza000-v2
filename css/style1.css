@@ -186,7 +186,7 @@ body{
 }
 
 
-/* @media screen and (min-width: 500px){
+@media screen and (max-width: 500px){
 
 	.header{
 		height: 50vh;
@@ -209,4 +209,4 @@ body{
 		margin-right: auto;
 	}
 
-} */
+}
