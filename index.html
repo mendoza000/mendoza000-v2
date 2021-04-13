@@ -8,95 +8,82 @@
 		<script src="https://kit.fontawesome.com/acb30b3f49.js" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
-
 		<link rel="stylesheet" href="./css/style1.css">
 		<!-- Roboto fonts -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-
 	</head>
 	<body>
 		<header>
-
 			<div class="header">
 				<i class="fas fa-meteor fa-7x header__icon"></i>
 				<h1 class="header__title">Omar_Mendoza</h1>
 				<p class="header_subt"><i>Dev</i></p>
 			</div>
-
 			<div class="nav-main">
 				<nav>
 					<ul class="nav-main__list">
-						<li class="nav-main__item"><i class="fas fa-home fa-x2"></i> Inicio</li>
-						<li class="nav-main__item"><i class="fas fa-rocket fa-x2"></i> Frameworks</li>
-						<li class="nav-main__item"><i class="fas fa-terminal fa-x2"></i> Lenguajes</li>
-						<li class="nav-main__item"><i class="fas fa-bolt fa-x2"></i> Contacto</li>
+						<li class="nav-main__item"><i class="fas fa-home fa-x2"></i><a href="#">Inicio</a></li>
+						<li class="nav-main__item"><i class="fas fa-rocket fa-x2"></i><a href="#">Aptitudes</a></li>
+						<li class="nav-main__item"><i class="fas fa-terminal fa-x2"></i><a href="#">Proyectos</a></li>
+						<li class="nav-main__item"><i class="fas fa-bolt fa-x2"></i><a href="#">Contacto</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
-
 		<div class="container">
-					<div class="grid-2">
-							<div class="cont__title">
-								<i class="fas fa-atom fa-7x"></i>
-								<p>Sobre mi</p>
-							</div>
-							<p class="cont__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo excepturi ab voluptates tempore aliquam voluptatem minus, blanditiis? Esse sequi, nemo commodi in ipsa architecto, enim sed explicabo aperiam, qui quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo excepturi ab voluptates tempore aliquam voluptatem minus, blanditiis? Esse sequi, nemo commodi in ipsa architecto, enim sed explicabo aperiam, qui quia.</p>
-					</div>
-
-					<div class="grid-2">
-							<p class="cont__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo excepturi ab voluptates tempore aliquam voluptatem minus, blanditiis? Esse sequi, nemo commodi in ipsa architecto, enim sed explicabo aperiam, qui quia.</p>
-							<div class="cont__title">
-								<i class="fas fa-atom fa-7x"></i>
-								<p>Sobre mi</p>
-							</div>
-					</div>
-
-					<div class="grid-3">
-						<div class="cont__title card">
-							<i class="fab fa-html5 fa-5x html-color"></i>
-							<p>HTML 5</p>
-							<p class="cont__sub">Prepared</p>
-						</div>
-							<div class="cont__title card">
-								<i class="fab fa-css3-alt fa-5x css-color"></i>
-								<p>CSS 3</p>
-								<p class="cont__sub">In progress...</p>
-							</div>
-							<div class="cont__title card">
-								<i class="fab fa-js fa-5x js-color"></i>
-								<p>JavaScript</p>
-								<p class="cont__sub">In progress...</p>
-							</div>
-					</div>
-
-					<div class="grid-3">
-							<div class="cont__title card">
-								<i class="fab fa-python fa-5x py-color"></i>
-								<p>Python</p>
-								<p class="cont__sub">In progress...</p>
-							</div>
-
-							<div class="cont__title card">
-								<i class="fab fa-react fa-5x react-color"></i>
-								<p>ReactJs</p>
-								<p class="cont__sub">In progress...</p>
-							</div>
-
-							<!-- <div class="cont__title card">
-								<img class="card__img" src="img/csharp_logo.png" alt="csharp">
-								<p>ReactJs</p>
-								<p class="cont__sub">In progress...</p>
-							</div>
- -->
-					</div>
+			<div class="about">
+				<div class="cont__title">
+					<i class="fas fa-atom fa-7x"></i>
+					<p class="bold">Sobre mi</p>
 				</div>
-
-				<div class="footer">
-					<p class="footer__txt"><span class="html-color bold">&copy </span>Omar Mendoza 2021-2022</p>
+				<p class="cont__text rigth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo excepturi ab voluptates tempore aliquam voluptatem minus, blanditiis? Esse sequi, nemo commodi in ipsa architecto, enim sed explicabo aperiam, qui quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo excepturi ab voluptates tempore aliquam voluptatem minus, blanditiis? Esse sequi, nemo commodi in ipsa architecto, enim sed explicabo aperiam, qui quia.</p>
+			</div>
+			<div class="about">
+				<p class="cont__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo excepturi ab voluptates tempore aliquam voluptatem minus, blanditiis? Esse sequi, nemo commodi in ipsa architecto, enim sed explicabo aperiam, qui quia.</p>
+				<div class="cont__title">
+					<i class="fas fa-atom fa-7x"></i>
+					<p class="bold">Sobre mi</p>
 				</div>
-
-
+			</div>
+			<div class="grid-3">
+				<div class="cont__title card">
+					<i class="fab fa-html5 fa-5x html-color"></i>
+					<p>HTML 5</p>
+					<p class="cont__sub">Prepared</p>
+				</div>
+				<div class="cont__title card">
+					<i class="fab fa-css3-alt fa-5x css-color"></i>
+					<p>CSS 3</p>
+					<p class="cont__sub">In progress...</p>
+				</div>
+				<div class="cont__title card">
+					<i class="fab fa-js fa-5x js-color"></i>
+					<p>JavaScript</p>
+					<p class="cont__sub">In progress...</p>
+				</div>
+			</div>
+			<div class="grid-2">
+				<div class="cont__title card">
+					<i class="fab fa-python fa-5x py-color"></i>
+					<p>Python</p>
+					<p class="cont__sub">In progress...</p>
+				</div>
+				<div class="cont__title card">
+					<i class="fab fa-react fa-5x react-color"></i>
+					<p>ReactJs</p>
+					<p class="cont__sub">In progress...</p>
+				</div>
+				<!-- <div class="cont__title card">
+						<img class="card__img" src="img/csharp_logo.png" alt="csharp">
+						<p>ReactJs</p>
+						<p class="cont__sub">In progress...</p>
+				</div>
+				-->
+			</div>
+		</div>
+		<div class="footer">
+			<p class="footer__txt"><span class="html-color bold">&copy </span>Omar Mendoza 2021-2022</p>
+		</div>
 	</body>
 </html>
